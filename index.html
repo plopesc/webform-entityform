@@ -13,6 +13,20 @@
         td.built-in {
             font-weight: bold;
         }
+        td.example {
+            background-size: 30px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        td.error {
+            background-image: url('deck/error.png');
+        }
+        td.check {
+            background-image: url('deck/check.png');
+        }
+        td.question {
+            background-image: url('deck/question.jpg');
+        }
     </style>
 </head>
 <body class="reveal-viewport theme-font-opensans theme-color-white-blue">
@@ -58,9 +72,9 @@
 
         <section class="has-light-background" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" data-block-id="ce43ec919b84147e13ade2b638f26f62"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1365" data-natural-height="767" data-src="deck/1520688-bg.png"></div></div>
             <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
-                <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Exposing forms to end users</span></span></p>
+                <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Survey forms</span></span></p>
             </div></div>
-            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
                 <ul>
                     <li><strong><span style="font-size:40px"><span style="text-align:justify">Collect extra information</span></span></strong></li>
                     <li><strong><span style="font-size:40px"><span style="text-align:justify">Get feedback from our users</span></span></strong></li>
@@ -79,7 +93,7 @@
             <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                 <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Drupal alternatives</span></span></p>
             </div></div>
-            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
                 <ul>
                     <li class="fragment strike"><strong><span style="font-size:40px"><span style="text-align:justify">Form API</span></span></strong></li>
                     <li class="fragment strike"><strong><span style="font-size:40px"><span style="text-align:justify">Generic content type</span></span></strong></li>
@@ -97,12 +111,12 @@
             <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                 <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Survey form modules</span></span></p>
             </div></div>
-            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
                 <ul>
                     <li><strong><span style="font-size:45px"><span style="text-align:justify">Allow to create <i>survey</i> forms to site admins</span></span></strong></li>
-                    <li><strong><span style="font-size:45px"><span style="text-align:justify">Store submissions results for further analysis</span></span></strong></li>
-                    <li><strong><span style="font-size:45px"><span style="text-align:justify">Support for notification to admins and users</span></span></strong></li>
-                    <li><strong><span style="font-size:45px"><span style="text-align:justify">Access control to the form</span></span></strong></li>
+                    <li><strong><span style="font-size:45px"><span style="text-align:justify">Store submission results for further analysis</span></span></strong></li>
+                    <li><strong><span style="font-size:45px"><span style="text-align:justify">Support notification for admins and users</span></span></strong></li>
+                    <li><strong><span style="font-size:45px"><span style="text-align:justify">Support access control</span></span></strong></li>
                 </ul>
             </div></div>
             <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 1000px; left: 182px; top: 550px;" data-block-id="a6c79daf263a6ce155e21a11044c013c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
@@ -118,15 +132,15 @@
                 <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                     <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Webform</span></span></p>
                 </div></div>
-                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
                     <ul>
                         <li><strong><span style="font-size:45px"><span style="text-align:justify">Created in 2004</span></span></strong></li>
                         <li><strong><span style="font-size:45px"><span style="text-align:justify">More than 450K installations</span></span></strong></li>
                         <li><strong><span style="font-size:45px"><span style="text-align:justify">Almost 150 releases since Drupal 4.4.x</span></span></strong></li>
-                        <li><strong><span style="font-size:45px"><span style="text-align:justify"><i>De facto</i> standard survey forms module</span></span></strong></li>
+                        <li><strong><span style="font-size:45px"><span style="text-align:justify"><i>De facto</i> standard survey form module</span></span></strong></li>
                     </ul>
                 </div></div>
-                <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 870px; left: 247px; top: 540px;" data-block-id="d7625d5a065e71d997daea834717b3ae"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; color: rgb(0, 106, 145);">
+                <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 870px; left: 247px; top: 580px;" data-block-id="d7625d5a065e71d997daea834717b3ae"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; color: rgb(0, 106, 145);">
                     <p><span style="font-size:32px">https://www.drupal.org/project/webform</span></p>
                 </div></div>
             </section>
@@ -134,7 +148,7 @@
                 <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                     <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Webform key features</span></span></p>
                 </div></div>
-                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
                     <ul>
                         <li><strong><span style="font-size:45px"><span style="text-align:justify">Survey forms system on top of Drupal</span></span></strong></li>
                         <li><strong><span style="font-size:45px"><span style="text-align:justify">Easy to use for non-experienced users</span></span></strong></li>
@@ -145,6 +159,18 @@
                 </div></div>
 
             </section>
+            <section class="has-light-background" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" data-block-id="ce43ec919b84147e13ade2b638f26f62"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1365" data-natural-height="767" data-src="deck/1520688-bg.png"></div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
+                    <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Webform UI</span></span></p>
+                </div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 1156px; left: 104px; top: 300px;" data-block-id="eb31a3d6e7b2750fb0e02c7677aca62b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(255, 255, 255);">
+                    <img style="height:200px;"src="deck/webform_form.png">
+                </div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 1156px; left: 104px; top: 550px;" data-block-id="eb31a3d6e7b2750fb0e02c7677aca62b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(255, 255, 255);">
+                    <img style="height:200px;"src="deck/webform_results.png">
+                </div></div>
+
+            </section>
         </section>
 
         <section>
@@ -152,7 +178,7 @@
                 <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                     <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Entityform</span></span></p>
                 </div></div>
-                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
                     <ul>
                         <li><strong><span style="font-size:45px"><span style="text-align:justify">Created in 2011</span></span></strong></li>
                         <li><strong><span style="font-size:45px"><span style="text-align:justify">More than 15K installations</span></span></strong></li>
@@ -160,7 +186,7 @@
                         <li><strong><span style="font-size:45px"><span style="text-align:justify">Fully integrated with Drupal core subsystems</span></span></strong></li>
                     </ul>
                 </div></div>
-                <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 870px; left: 247px; top: 540px;" data-block-id="d7625d5a065e71d997daea834717b3ae"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; color: rgb(0, 106, 145);">
+                <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 870px; left: 247px; top: 580px;" data-block-id="d7625d5a065e71d997daea834717b3ae"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; color: rgb(0, 106, 145);">
                     <p><span style="font-size:32px">https://www.drupal.org/project/entityform</span></p>
                 </div></div>
             </section>
@@ -168,7 +194,7 @@
                 <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                     <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Entityform key features</span></span></p>
                 </div></div>
-                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
                     <ul>
                         <li><strong><span style="font-size:45px"><span style="text-align:justify">Use Drupal entities to provide survey forms</span></span></strong></li>
                         <li><strong><span style="font-size:45px"><span style="text-align:justify">Requires experience managing Drupal sites</span></span></strong></li>
@@ -176,6 +202,19 @@
                         <li><strong><span style="font-size:45px"><span style="text-align:justify">Requires other modules for some usual tasks</span></span></strong></li>
                         <li><strong><span style="font-size:45px"><span style="text-align:justify">Easy integration with most used modules</span></span></strong></li>
                     </ul>
+                </div></div>
+
+            </section>
+
+            <section class="has-light-background" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" data-block-id="ce43ec919b84147e13ade2b638f26f62"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1365" data-natural-height="767" data-src="deck/1520688-bg.png"></div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
+                    <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Entityform UI</span></span></p>
+                </div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 1156px; left: 104px; top: 300px;" data-block-id="eb31a3d6e7b2750fb0e02c7677aca62b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(255, 255, 255);">
+                    <img style="height:200px;"src="deck/entityform_form.png">
+                </div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 1156px; left: 104px; top: 550px;" data-block-id="eb31a3d6e7b2750fb0e02c7677aca62b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(255, 255, 255);">
+                    <img style="height:200px;"src="deck/entityform_results.png">
                 </div></div>
 
             </section>
@@ -198,7 +237,7 @@
             <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                 <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Storage & scalability</span></span></p>
             </div></div>
-            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
 
                 <table>
                     <thead>
@@ -234,7 +273,7 @@
             <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                 <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Form Creation</span></span></p>
             </div></div>
-            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
 
                 <table>
                     <thead>
@@ -285,7 +324,7 @@
             <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                 <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Form Fields</span></span></p>
             </div></div>
-            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
 
                 <table>
                     <thead>
@@ -308,7 +347,7 @@
                     <tr>
                     <tr>
                         <td style="font-weight: bold;">Grouping Fields</td>
-                        <td>Built-in (Fieldset)</td>
+                        <td class="built-in">Built-in (Fieldset)</td>
                         <td>Contrib (Field Group)</td>
                     <tr>
                     <tr>
@@ -326,7 +365,7 @@
             <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                 <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Survey features</span></span></p>
             </div></div>
-            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
 
                 <table>
                     <thead>
@@ -367,7 +406,7 @@
             <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                 <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Theming</span></span></p>
             </div></div>
-            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
 
                 <table>
                     <thead>
@@ -384,7 +423,7 @@
                         <td>Needs custom code</td>
                     <tr>
                     <tr>
-                        <td style="font-weight: bold;">Show in panels page</td>
+                        <td style="font-weight: bold;">Panels integration</td>
                         <td class="built-in">Built-in</td>
                         <td>Contrib (Entityform Panels)</td>
                     <tr>
@@ -403,7 +442,7 @@
             <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                 <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Integration</span></span></p>
             </div></div>
-            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
 
                 <table>
                     <thead>
@@ -449,7 +488,7 @@
             <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                 <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Deployment</span></span></p>
             </div></div>
-            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
 
                 <table>
                     <thead>
@@ -491,7 +530,7 @@
                 <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                     <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Deploying Webform</span></span></p>
                 </div></div>
-                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
                     <ul>
                         <li><strong><span style="font-size:38px"><span style="text-align:justify">Webform was designed to be treated as dynamic content</span></span></strong></li>
                         <li><strong><span style="font-size:38px"><span style="text-align:justify">Webforms are easy to manage by end users</span></span></strong></li>
@@ -507,7 +546,7 @@
                 <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                     <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Deploying Entityform</span></span></p>
                 </div></div>
-                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
                     <ul>
                         <li><strong><span style="font-size:38px"><span style="text-align:justify">Entityform was designed to be treated as static forms</span></span></strong></li>
                         <li><strong><span style="font-size:38px"><span style="text-align:justify">Can be deployed smoothly using features</span></span></strong></li>
@@ -521,15 +560,15 @@
             <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                 <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Conclussions</span></span></p>
             </div></div>
-            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
                 <ul>
-                    <li><strong><span style="font-size:45px"><span style="text-align:justify">There is no a golden hammer solution</span></span></strong></li>
+                    <li><strong><span style="font-size:45px"><span style="text-align:justify">There is no golden hammer solution</span></span></strong></li>
                     <li><strong><span style="font-size:45px"><span style="text-align:justify">Webform is a survey form specific tool</span></span></strong></li>
                     <li><strong><span style="font-size:45px"><span style="text-align:justify">Entityform adapts Entity API to survey forms</span></span></strong></li>
                 </ul>
             </div></div>
 
-            <div class="sl-block fragment" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 1100px; left: 132px; top: 486px;" data-block-id="a6c79daf263a6ce155e21a11044c013c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
+            <div class="sl-block fragment" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 1100px; left: 132px; top: 506px;" data-block-id="a6c79daf263a6ce155e21a11044c013c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                 <p class="fragment grow"><span style="font-size:52px">It's necessary to study project requirements before making your final decision</span></p>
             </div></div>
 
@@ -540,14 +579,14 @@
                 <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                     <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Helpful questions</span></span></p>
                 </div></div>
-                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
                     <ul>
                         <li><strong><span style="font-size:38px"><span style="text-align:justify">How many forms will be necessary?</span></span></strong></li>
-                        <li><strong><span style="font-size:38px"><span style="text-align:justify">How many fields will need any form?</span></span></strong></li>
+                        <li><strong><span style="font-size:38px"><span style="text-align:justify">How many fields per form form will be necessary?</span></span></strong></li>
                         <li><strong><span style="font-size:38px"><span style="text-align:justify">Will be the site multilingual?</span></span></strong></li>
                         <li><strong><span style="font-size:38px"><span style="text-align:justify">Will be form admins familiar with Drupal administration?</span></span></strong></li>
                         <li><strong><span style="font-size:38px"><span style="text-align:justify">What kind of field types will be required?</span></span></strong></li>
-                        <li><strong><span style="font-size:38px"><span style="text-align:justify">Will be necessary complex field grouping or multipage support?</span></span></strong></li>
+                        <li><strong><span style="font-size:38px"><span style="text-align:justify">Will be necessary complex field grouping or multipage forms?</span></span></strong></li>
                     </ul>
                 </div></div>
 
@@ -556,7 +595,7 @@
                 <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                     <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Helpful questions</span></span></p>
                 </div></div>
-                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
                     <ul>
                         <li><strong><span style="font-size:38px"><span style="text-align:justify">How survey submissions will be extracted/processed?</span></span></strong></li>
                         <li><strong><span style="font-size:38px"><span style="text-align:justify">Will be necessary submission notification logic?</span></span></strong></li>
@@ -566,6 +605,277 @@
                         <li><strong><span style="font-size:38px"><span style="text-align:justify">Will be necessary a complex submission limit logic?</span></span></strong></li>
                         <li><strong><span style="font-size:38px"><span style="text-align:justify">Where the forms will be placed?</span></span></strong></li>
                     </ul>
+                </div></div>
+
+            </section>
+        </section>
+
+        <section>
+            <section class="has-light-background" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" data-block-id="ce43ec919b84147e13ade2b638f26f62"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1365" data-natural-height="767" data-src="deck/1520688-bg.png"></div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
+                    <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Example 1 - Course Feedback</span></span></p>
+                </div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+                    <ul>
+                        <li><strong><span style="font-size:38px"><span style="text-align:justify">Course owners not familiar with Drupal UI</span></span></strong></li>
+                        <li><strong><span style="font-size:38px"><span style="text-align:justify">Each course will have a different survey form</span></span></strong></li>
+                        <li><strong><span style="font-size:38px"><span style="text-align:justify">High number of questions per form, multipage</span></span></strong></li>
+                        <li><strong><span style="font-size:38px"><span style="text-align:justify">Single submission per form per user</span></span></strong></li>
+                        <li><strong><span style="font-size:38px"><span style="text-align:justify">Notify submission to course owner and user</span></span></strong></li>
+                        <li><strong><span style="font-size:38px"><span style="text-align:justify">Ability to download submissions in xls file</span></span></strong></li>
+                        <li><strong><span style="font-size:38px"><span style="text-align:justify">Whole form placed at the bottom of the course content</span></span></strong></li>
+                    </ul>
+                </div></div>
+
+            </section>
+            <section class="has-light-background" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" data-block-id="ce43ec919b84147e13ade2b638f26f62"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1365" data-natural-height="767" data-src="deck/1520688-bg.png"></div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
+                    <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Course Feedback - Questions</span></span></p>
+                </div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+
+                    <table>
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th>WebForm</th>
+                            <th>EntityForm</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td style="font-weight: bold;"># of forms</td>
+                            <td class="example check"></td>
+                            <td class="example error"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;"># fields per form</td>
+                            <td class="example check"></td>
+                            <td class="example error"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Multilingual</td>
+                            <td class="example question"></td>
+                            <td class="example question"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">User experience</td>
+                            <td class="example check"></td>
+                            <td class="example error"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Field types</td>
+                            <td class="example check"></td>
+                            <td class="example check"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Multipage</td>
+                            <td class="example check"></td>
+                            <td class="example error"></td>
+                        <tr>
+                        </tbody>
+                    </table>
+                </div></div>
+
+            </section>
+            <section class="has-light-background" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" data-block-id="ce43ec919b84147e13ade2b638f26f62"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1365" data-natural-height="767" data-src="deck/1520688-bg.png"></div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
+                    <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Course Feedback - Questions</span></span></p>
+                </div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+
+                    <table>
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th>WebForm</th>
+                            <th>EntityForm</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td style="font-weight: bold;">Data extraction / analysis</td>
+                            <td class="example check"></td>
+                            <td class="example error"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Notifications</td>
+                            <td class="example check"></td>
+                            <td class="example check"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Deployment</td>
+                            <td class="example question"></td>
+                            <td class="example question"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Dynamic forms</td>
+                            <td class="example check"></td>
+                            <td class="example error"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Theming</td>
+                            <td class="example check"></td>
+                            <td class="example check"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Submission limit</td>
+                            <td class="example check"></td>
+                            <td class="example check"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Specific placement</td>
+                            <td class="example check"></td>
+                            <td class="example error"></td>
+                        <tr>
+                        </tbody>
+                    </table>
+                </div></div>
+
+            </section>
+            <section class="has-light-background" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" data-block-id="ce43ec919b84147e13ade2b638f26f62"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1365" data-natural-height="767" data-src="deck/1520688-bg.png"></div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
+                    <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Course feedback summary</span></span></p>
+                </div></div>
+
+                <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 1100px; left: 132px; top: 486px;" data-block-id="a6c79daf263a6ce155e21a11044c013c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
+                    <p><span style="font-size:122px">Webform Wins!!</span></p>
+                </div></div>
+
+            </section>
+        </section>
+
+        <section>
+            <section class="has-light-background" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" data-block-id="ce43ec919b84147e13ade2b638f26f62"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1365" data-natural-height="767" data-src="deck/1520688-bg.png"></div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
+                    <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Example 2 - Job Application</span></span></p>
+                </div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+                    <ul>
+                        <li><strong><span style="font-size:38px"><span style="text-align:justify">Static forms created by site dev team</span></span></strong></li>
+                        <li><strong><span style="font-size:38px"><span style="text-align:justify">Limited number of static forms</span></span></strong></li>
+                        <li><strong><span style="font-size:38px"><span style="text-align:justify">Need to use Address Field and dynamic tags</span></span></strong></li>
+                        <li><strong><span style="font-size:38px"><span style="text-align:justify">Multilingual site</span></span></strong></li>
+                        <li><strong><span style="font-size:38px"><span style="text-align:justify">Unlimited submissions per form per user</span></span></strong></li>
+                        <li><strong><span style="font-size:38px"><span style="text-align:justify">Notify submission to user and admins with certain role</span></span></strong></li>
+                        <li><strong><span style="font-size:38px"><span style="text-align:justify">Form fields along the page</span></span></strong></li>
+                    </ul>
+                </div></div>
+
+            </section>
+            <section class="has-light-background" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" data-block-id="ce43ec919b84147e13ade2b638f26f62"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1365" data-natural-height="767" data-src="deck/1520688-bg.png"></div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
+                    <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Job offers - Questions</span></span></p>
+                </div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+
+                    <table>
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th>WebForm</th>
+                            <th>EntityForm</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td style="font-weight: bold;"># of forms</td>
+                            <td class="example check"></td>
+                            <td class="example check"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;"># fields per form</td>
+                            <td class="example check"></td>
+                            <td class="example check"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Multilingual</td>
+                            <td class="example error"></td>
+                            <td class="example check"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">User experience</td>
+                            <td class="example check"></td>
+                            <td class="example check"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Field types</td>
+                            <td class="example error"></td>
+                            <td class="example check"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Multipage</td>
+                            <td class="example question"></td>
+                            <td class="example question"></td>
+                        <tr>
+                        </tbody>
+                    </table>
+                </div></div>
+
+            </section>
+            <section class="has-light-background" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" data-block-id="ce43ec919b84147e13ade2b638f26f62"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1365" data-natural-height="767" data-src="deck/1520688-bg.png"></div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
+                    <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Job Application - Questions</span></span></p>
+                </div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+
+                    <table>
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th>WebForm</th>
+                            <th>EntityForm</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td style="font-weight: bold;">Data extraction / analysis</td>
+                            <td class="example check"></td>
+                            <td class="example check"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Notifications</td>
+                            <td class="example error"></td>
+                            <td class="example check"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Deployment</td>
+                            <td class="example error"></td>
+                            <td class="example check"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Dynamic forms</td>
+                            <td class="example question"></td>
+                            <td class="example question"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Theming</td>
+                            <td class="example question"></td>
+                            <td class="example question"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Submission limit</td>
+                            <td class="example check"></td>
+                            <td class="example check"></td>
+                        <tr>
+                        <tr>
+                            <td style="font-weight: bold;">Specific placement</td>
+                            <td class="example error"></td>
+                            <td class="example check"></td>
+                        <tr>
+                        </tbody>
+                    </table>
+                </div></div>
+
+            </section>
+
+            <section class="has-light-background" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" data-block-id="ce43ec919b84147e13ade2b638f26f62"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1365" data-natural-height="767" data-src="deck/1520688-bg.png"></div></div>
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
+                    <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Job Application summary</span></span></p>
+                </div></div>
+
+                <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 1100px; left: 132px; top: 486px;" data-block-id="a6c79daf263a6ce155e21a11044c013c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
+                    <p><span style="font-size:122px">Entityform Wins!!</span></p>
                 </div></div>
 
             </section>
@@ -601,7 +911,7 @@
                 <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                     <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Drupal 8 Webform</span></span></p>
                 </div></div>
-                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
                     <ul>
                         <li><strong><span style="font-size:45px"><span style="text-align:justify">New team of maintainers</span></span></strong></li>
                         <li><strong><span style="font-size:45px"><span style="text-align:justify">Need to rewrite and redesign</span></span></strong></li>
@@ -619,10 +929,10 @@
                 <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                     <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Drupal 8 EForm</span></span></p>
                 </div></div>
-                <div class="sl-block" data-block-type="text" style="height: auto; width: 1200px; left: 82px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+                <div class="sl-block" data-block-type="text" style="height: auto; width: 1200px; left: 82px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
                     <ul>
                         <li><strong><span style="font-size:40px"><span style="text-align:justify">Renamed to EForm to avoid naming issues</span></span></strong></li>
-                        <li><strong><span style="font-size:40px"><span style="text-align:justify">Ted bowman continue leading the project</span></span></strong></li>
+                        <li><strong><span style="font-size:40px"><span style="text-align:justify">Ted Bowman continue leading the project</span></span></strong></li>
                         <li><strong><span style="font-size:40px"><span style="text-align:justify">Need to update the module to the D8 Entity architecture</span></span></strong></li>
                         <li><strong><span style="font-size:40px"><span style="text-align:justify">Former required modules are in D8 core (Entity API, Views)</span></span></strong></li>
                         <li><strong><span style="font-size:40px"><span style="text-align:justify">Helpful modules are being ported (Rules, Field Group)</span></span></strong></li>
@@ -630,16 +940,39 @@
                 </div></div>
                 <aside class="notes">
                     Talk about beta.<br>
-                    Be excited about crrent status
+                    Be excited about current status
                 </aside>
             </section>
+        </section>
+
+        <section class="has-light-background" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" data-block-id="f3366ed009d66dae11811bcebf9e2a83"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1365" data-natural-height="767" data-src="deck/1520688-bg.png"></div></div>
+            <div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 282px; top: 204px;" data-block-id="eb19f52f6ae1c7c89157ae84e2bf24bb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
+                <p><span style="font-size:56px">Sprint: Friday</span></p>
+            </div></div>
+            <div class="sl-block" data-block-type="text" style="height: auto; width: 451px; left: 272px; top: 296px;" data-block-id="6ef3e1ed076d40bdbcbce677763facd6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(0, 106, 145);">
+                <p style="text-align:left"><span style="text-align:justify"><span style="font-size:20px"><strong>Sprint with the Community on Friday.</strong></span></span></p>
+
+                <p style="text-align:left"><span style="text-align:justify"><span style="font-size:20px"><strong>We have tasks for every skillset.</strong></span></span></p>
+
+                <p style="text-align:left"><span style="text-align:justify"><span style="font-size:20px"><strong>Mentors are available for new contributors.</strong></span></span></p>
+
+                <p style="text-align:left"><span style="text-align:justify"><span style="font-size:20px"><strong>An optional Friday morning workshop for first-time sprinters will help you get set up.</strong></span></span></p>
+
+                <p style="text-align:left"><span style="text-align:justify"><span style="font-size:20px"><strong>Follow @drupalmentoring.</strong></span></span></p>
+            </div></div>
+            <div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 314.623655913979px; height: 209px; left: 773px; top: 309px;" data-block-id="a84e160614ff9aa02d2d9f94dc0a9a6a"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="420" data-natural-height="279" data-src="deck/1499657-11_photo.jpg"></div></div>
+            <div class="sl-block" data-block-type="text" style="height: auto; width: 315px; left: 773px; top: 513px;" data-block-id="5b6b3238672bb18c1545582a9947c64b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; color: rgb(0, 106, 145);">
+                <p><span style="font-size:16px">https://www.flickr.com/photos/amazeelabs/9965814443/in/faves-38914559@N03/</span></p>
+
+                <p> </p>
+            </div></div>
         </section>
 
         <section class="has-light-background" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" data-block-id="ce43ec919b84147e13ade2b638f26f62"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1365" data-natural-height="767" data-src="deck/1520688-bg.png"></div></div>
             <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
                 <p><span style="font-size:72px"><span style="color:rgb(216, 63, 33)">Resources</span></span></p>
             </div></div>
-            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 285px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
+            <div class="sl-block" data-block-type="text" style="height: auto; width: 1165px; left: 100px; top: 325px;" data-block-id="8c0f991334378af77d71cf532b0d7c18"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; color: rgb(0, 106, 145);">
                 <ul>
                     <li><strong><span style="font-size:38px"><span style="text-align:justify">Webform project: <span style="font-size:25px"><a href="https://www.drupal.org/project/webform">https://www.drupal.org/project/webform</a></span></span></span></strong></li>
                     <li><strong><span style="font-size:38px"><span style="text-align:justify">Entityform project: <span style="font-size:25px"><a href="https://www.drupal.org/project/entityform">https://www.drupal.org/project/entityform</a></span></span></span></strong></li>
@@ -767,29 +1100,15 @@
         </section>
 
         -->
-        <section class="has-light-background" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" data-block-id="f3366ed009d66dae11811bcebf9e2a83"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1365" data-natural-height="767" data-src="deck/1520688-bg.png"></div></div>
-            <div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 282px; top: 204px;" data-block-id="eb19f52f6ae1c7c89157ae84e2bf24bb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
-                <p><span style="font-size:56px">Sprint: Friday</span></p>
+        <section class="has-light-background" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" data-block-id="ce43ec919b84147e13ade2b638f26f62"><div class="sl-block-content" style="z-index: 10;"><img style="" data-natural-width="1365" data-natural-height="767" data-src="deck/1520688-bg.png"></div></div>
+            <div class="sl-block" data-block-type="text" style="height: auto; width: 1000px; left: 182px; top: 186px;" data-block-id="8bf39796f4c26dd9c277b5bec6859ae0"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(216, 63, 33);">
+                <p><span style="font-size:102px"><span style="color:rgb(216, 63, 33)">Questions?</span></span></p>
             </div></div>
-            <div class="sl-block" data-block-type="text" style="height: auto; width: 451px; left: 272px; top: 296px;" data-block-id="6ef3e1ed076d40bdbcbce677763facd6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(0, 106, 145);">
-                <p style="text-align:left"><span style="text-align:justify"><span style="font-size:20px"><strong>Sprint with the Community on Friday.</strong></span></span></p>
-
-                <p style="text-align:left"><span style="text-align:justify"><span style="font-size:20px"><strong>We have tasks for every skillset.</strong></span></span></p>
-
-                <p style="text-align:left"><span style="text-align:justify"><span style="font-size:20px"><strong>Mentors are available for new contributors.</strong></span></span></p>
-
-                <p style="text-align:left"><span style="text-align:justify"><span style="font-size:20px"><strong>An optional Friday morning workshop for first-time sprinters will help you get set up.</strong></span></span></p>
-
-                <p style="text-align:left"><span style="text-align:justify"><span style="font-size:20px"><strong>Follow @drupalmentoring.</strong></span></span></p>
+            <div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 1156px; left: 104px; top: 300px;" data-block-id="eb31a3d6e7b2750fb0e02c7677aca62b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; color: rgb(255, 255, 255);">
+                <img style="height:400px;"src="deck/ryu_ken_intro.gif">
             </div></div>
-            <div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 314.623655913979px; height: 209px; left: 773px; top: 309px;" data-block-id="a84e160614ff9aa02d2d9f94dc0a9a6a"><div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="420" data-natural-height="279" data-src="deck/1499657-11_photo.jpg"></div></div>
-            <div class="sl-block" data-block-type="text" style="height: auto; width: 315px; left: 793px; top: 513px;" data-block-id="5b6b3238672bb18c1545582a9947c64b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; color: rgb(0, 106, 145);">
-                <p><span style="font-size:16px">https://www.flickr.com/photos/amazeelabs/9965814443/in/faves-38914559@N03/</span></p>
 
-                <p> </p>
-            </div></div>
         </section>
-
 
         <section class="has-light-background" data-background-color="#ffffff"><div class="sl-block" data-block-type="image" style="" data-block-id="abaf2d2c0811c7ba31a7a883e5ae8e8a"><div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1365" data-natural-height="768" data-src="deck/1499675-last_wide.png"></div></div>
         </section>
